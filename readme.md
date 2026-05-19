@@ -93,7 +93,7 @@ FWI (Fire Weather Index)
 
 ⚙️ Installation
 Clone Repository
-git clone https://github.com/yourusername/forestfire-main.git
+git clone https://github.com/mohammedghoused/Forest_Fire_Model.git
 Navigate to Project Folder
 cd forestfire-main
 Install Dependencies
