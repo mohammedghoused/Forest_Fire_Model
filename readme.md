@@ -128,7 +128,7 @@ Home Page
 ## Home Page
 ![Home Page](images/home.png)
 ## Prediction Output
-![Prediction](images/predicted.png)
+![Prediction](images/preidicted.png)
 
 📦 Requirements
 Main Libraries:
