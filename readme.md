@@ -52,30 +52,32 @@ The application is built using:
 ---
 
 # 📂 Project Structure
-
-```bash
 forestfire-main/
 │
-├── application.py
-├── req.txt
+├── images/
+│   ├── home.png
+│   └── preidicted.png
+│
 ├── models/
 │   ├── ridge.pkl
 │   └── scaler.pkl
 │
-├── templates/
-│   ├── index.html
-│   └── home.html
-│
 ├── notebooks and dataset/
-│   ├── ALGERIAN_MODEL_TRAINING.ipynb
-│   └── Algerian_forest_fires_cleaned_dataset.csv
-📊 Dataset
+│   ├── Algerian_forest_fires_cleaned_dataset.csv
+│   └── ALGERIAN_MODEL_TRAINING.ipynb
+│
+├── templates/
+│   ├── home.html
+│   └── index.html
+│
+├── application.py
+├── readme.md
+└── req.txt
 
-Dataset used:
-Algerian Forest Fires Dataset
+📊 Dataset
+Dataset used: Algerian Forest Fires Dataset
 
 Features include:
-
 Temperature
 RH
 Ws
@@ -87,8 +89,8 @@ Classes
 Region
 
 Target:
-
 FWI (Fire Weather Index)
+
 ⚙️ Installation
 Clone Repository
 git clone https://github.com/yourusername/forestfire-main.git
@@ -100,8 +102,8 @@ pip install -r req.txt
 python application.py
 
 Application runs on:
-
 http://127.0.0.1:5000
+
 🧠 Machine Learning Workflow
 Data Collection
 Data Cleaning
@@ -110,36 +112,26 @@ Train-Test Split
 Ridge Regression Model Training
 Model Serialization using Pickle
 Flask Deployment
+
 📈 Model Used
 Ridge Regression
-
 Ridge Regression is a regularized version of Linear Regression used to reduce overfitting.
-
 Formula:
-
-Ridge Loss Function:
-
-L = RSS + λ(Σβ²)
-
+Ridge Loss Function: L = RSS + λ(Σβ²)
 Where:
-
 RSS = Residual Sum of Squares
 λ = Regularization Parameter
+
 📸 Screenshots
 Home Page
-
-Add Screenshot:
-https://via.placeholder.com/900x400.png?text=Home+Page
-
-Prediction Page
-
-Add Screenshot:
-https://via.placeholder.com/900x400.png?text=Prediction+Output
+# 📸 Screenshots
+## Home Page
+![Home Page](images/home.png)
+## Prediction Output
+![Prediction](images/predicted.png)
 
 📦 Requirements
-
 Main Libraries:
-
 Flask
 numpy
 pandas
@@ -148,7 +140,7 @@ pickle
 👨‍💻 Author
 
 Developed by:
-Mohammed Ghoused
+Mohammed Ghouse D
 
 ⭐ Future Improvements
 Deploy on AWS / Render / Heroku
